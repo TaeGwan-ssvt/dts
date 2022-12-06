@@ -1,11 +1,8 @@
-import { getCirle } from 'getCircle'
-import {getUser} from 'getUser'
+import { getUser } from 'getUser'
 
-// const getCircle = (r:number) => {
-
-// }
+getUser().then((value: string) => console.log(value))
 
 
-getUser().then((value:string) => console.log(value))
-
-// 
+// 실행방법 : tsc index.ts && node index.js
+// https://it-eldorado.tistory.com/127
+// https://spookyjelly.tistory.com/83
